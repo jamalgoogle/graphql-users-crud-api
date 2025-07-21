@@ -23,4 +23,9 @@ A simple GraphQL CRUD API for managing users, built with Node.js, Express, and A
 
 ```bash
 git clone https://github.com/your-username/graphql-users-api.git
+
 cd graphql-users-api
+
+npm install
+
+npm start
