@@ -12,8 +12,8 @@ A simple GraphQL CRUD API for managing users, built with Node.js, Express, and A
 - ➕ Add a user
 - 📝 Update a user
 - ❌ Delete a user
-- 🧹 Delete all users
 - 📥 Add multiple users (bulk)
+- 🧹 Delete all users
 
 ---
 
