@@ -8,6 +8,7 @@ const users = [
 const resolvers = {
    Query: {
       getUsers: () => users,
+      getUserByName: (_, { name }) => users.find(user => user.name === name),
    },
    Mutation: {
       addUser: (_, { name }) => {
