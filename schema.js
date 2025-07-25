@@ -9,7 +9,7 @@ const typeDefs = gql`
   type Query {
     getUsers: [User!]!
   }
-
+   
   type Mutation {
     addUser(name: String!): User!
     deleteUser(id: ID!): Boolean!
