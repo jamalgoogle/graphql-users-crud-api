@@ -9,6 +9,7 @@ const resolvers = {
    Query: {
       getUsers: () => users,
       getUserByName: (_, { name }) => users.find(user => user.name === name),
+      getUserById: (_, { id }) => users.find(user => user.id === id),
    },
    Mutation: {
       addUser: (_, { name }) => {
@@ -34,6 +35,7 @@ const resolvers = {
          user.name = name;
          return user;
       },
+
 
       addUsersBulk: (_, { names }) => {
          const addedUsers = names.map(name => {
